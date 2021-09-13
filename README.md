@@ -87,6 +87,19 @@ client.tasks.completion_histories(task_id: task_id)
 client.tasks.base_completion_histories(task_id: task_id)
 ```
 
+### Tasks
+
+```ruby
+# list drivers
+client.drivers.list
+# get a driver details
+client.drivers.retrieve(driver_id: driver_id)
+# create driver
+client.drivers.create(driver: {name: "Yolo", dob: "1990-09-09"})
+# update driver
+client.drivers.update(driver_id: driver_id, driver: {name: "Yolo update"})
+```
+
 ## TO DO
 
 - [ ] Add API Documentation

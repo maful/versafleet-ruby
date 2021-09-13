@@ -12,8 +12,10 @@ module Versafleet
   # Resources (like high level API endpoints)
   autoload :JobsResource, "versafleet/resources/jobs"
   autoload :TasksResource, "versafleet/resources/tasks"
+  autoload :DriversResource, "versafleet/resources/drivers"
 
   # Classes used to return a nicer object wrapping the response data
   autoload :Job, "versafleet/objects/job"
   autoload :Task, "versafleet/objects/task"
+  autoload :Driver, "versafleet/objects/driver"
 end

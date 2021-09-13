@@ -17,6 +17,10 @@ module Versafleet
       TasksResource.new(self)
     end
 
+    def drivers
+      DriversResource.new(self)
+    end
+
     def connection
       @connection ||= Faraday.new(params: default_params) do |conn|
         conn.url_prefix = BASE_URL
