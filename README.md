@@ -2,6 +2,8 @@
 
 You'll need a VersaFleet account to use the API, if you don't have one visit the [VersaFleet](https://versafleet.co) website for more information.
 
+[![Build status](https://github.com/maful/versafleet-ruby/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/maful/versafleet-ruby/actions/workflows/test.yml) [![Gem Version](https://badge.fury.io/rb/versafleet.svg)](https://badge.fury.io/rb/versafleet)
+
 ## Installation
 
 Add `versafleet` to your application's Gemfile:
