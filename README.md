@@ -87,7 +87,7 @@ client.tasks.completion_histories(task_id: task_id)
 client.tasks.base_completion_histories(task_id: task_id)
 ```
 
-### Tasks
+### Drivers
 
 ```ruby
 # list drivers
