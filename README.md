@@ -19,6 +19,8 @@ gem "versafleet"
 
 To access the API, you'll need to create a `Versafleet::Client` and pass in your API Key and Secret Key. See [How to obtain API keys](https://versafleet.docs.apiary.io/#introduction/to-obtain-api-keys-(please-keep-them-safe!))
 
+Need more details? See [VersaFleet API Documentation](https://rubydoc.info/gems/versafleet) to see how it works internally.
+
 ```ruby
 client = Versafleet::Client.new(client_id: ENV["CLIENT_ID"], client_secret: ENV["CLIENT_SECRET"])
 ```
@@ -62,7 +64,7 @@ client.tasks.create(task_attributes: {})
 # assign task to driver
 client.tasks.assign(task_id: task_id, task: {driver_id: driver_id, vehicle_id: vehicle_id, remarks: "Notes"})
 # assign multiple tasks to driver
-client.tasks.assign_multiple(task: {ids: [], driver_id: driver_id, vehicle_id: vehicle_id, remarks: "Notes")
+client.tasks.assign_multiple(task: {ids: [], driver_id: driver_id, vehicle_id: vehicle_id, remarks: "Notes"})
 # unassign task
 client.tasks.unassign(task_id: task_id)
 # unassign multiple tasks
