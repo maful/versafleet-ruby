@@ -104,7 +104,7 @@ client.drivers.update(driver_id: driver_id, driver: {name: "Yolo update"})
 
 ## TO DO
 
-- [ ] Add API Documentation
+- [x] Add API Documentation ([#2](https://github.com/maful/versafleet-ruby/pull/2))
 - [ ] Add Docker support
 - [ ] Support to All VersaFleet API endpoints.
 
