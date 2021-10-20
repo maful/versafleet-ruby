@@ -1,0 +1,54 @@
+{
+  "job_id": 81494,
+  "price": 20,
+  "invoice_number": "12121212",
+  "tracking_id": "",
+  "time_from": "2021-06-16T00:00:00.000+08:00",
+  "time_to": "2021-06-16T23:59:00.000+08:00",
+  "time_type": "all_day",
+  "time_window_id": null,
+  "expected_cod": 200,
+  "remarks": "Leave with secretary",
+  "service_time": 15,
+  "address_attributes": {
+    "name": "Someone's Home",
+    "zip": 730877,
+    "line_1": "877 WOODLANDS AVENUE 9",
+    "line_2": "09-01",
+    "country": "Singapore",
+    "city": "Singapore City",
+    "email": "her.email@domain.com",
+    "contact_person": "Ms. Person",
+    "contact_number": "+6523456789",
+    "longitude": 103.791312,
+    "latitude": 1.4451443
+  },
+  "measurements_attributes": [
+    {
+      "quantity": 3,
+      "quantity_unit": "carton",
+      "weight": 5,
+      "volume": 0.5,
+      "description": "Handphones",
+      "custom_item_id": "Item12345",
+      "custom_item_check_method": "manual",
+      "custom_item_unload_check_method": "manual"
+    },
+    {
+      "quantity": 1,
+      "quantity_unit": "pallet",
+      "weight": 10,
+      "volume_length": 240,
+      "volume_width": 240,
+      "volume_height": 100,
+      "description": "Cotton",
+      "custom_item_id": "Item54321",
+      "custom_item_check_method": "scanner",
+      "custom_item_unload_check_method": "manual"
+    }
+  ],
+  "tag_list": [
+    "fragile",
+    "urgent"
+  ]
+}

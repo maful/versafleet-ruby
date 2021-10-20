@@ -1,0 +1,132 @@
+{
+  "task": {
+    "id": 123,
+    "guid": "TA3360000123",
+    "account_created_id": 336,
+    "account_id": 336,
+    "price": 200,
+    "invoice_number": "IN12345678",
+    "tracking_id": null,
+    "time_from": "2021-09-22T00:00:00.000+08:00",
+    "time_to": "2021-09-22T23:59:59.999+08:00",
+    "time_type": "all_day",
+    "actual_time": null,
+    "actual_latitude": null,
+    "actual_longitude": null,
+    "epod_url": null,
+    "allocated_account_ids": [],
+    "remarks": "Leave with secretary",
+    "invoiced": false,
+    "recipient_name": null,
+    "line_item_discrepancy": 0,
+    "expected_cod": 200,
+    "actual_cod": null,
+    "state": "unassigned",
+    "role": null,
+    "service_time": 15,
+    "archived": false,
+    "state_updated_at": "2021-09-28T07:04:05.528+08:00",
+    "last_started_at": null,
+    "last_successful_at": null,
+    "is_partial_success": false,
+    "job_id": 81494,
+    "latest_failure_reason": "",
+    "last_completion_history_created_at": null,
+    "address": {
+      "id": 540282,
+      "name": "Someone's Home",
+      "zip": "730877",
+      "line_1": "877 WOODLANDS AVENUE 9",
+      "line_2": "09-01",
+      "country": "Singapore",
+      "city": "Singapore City",
+      "email": "her.email@domain.com",
+      "contact_person": "Ms. Person",
+      "contact_number": "+6523456789",
+      "longitude": 103.791312,
+      "latitude": 1.4451443
+    },
+    "job": {
+      "id": 81494,
+      "guid": "JB3360081494",
+      "job_type": "delivery",
+      "remarks": "Update remarks",
+      "state": "in_progress",
+      "archived": false,
+      "customer": {
+        "id": 15258,
+        "guid": "CT3360015258",
+        "name": "Jason",
+        "email": "bal@example.com",
+        "contact_person": "Jason",
+        "contact_number": "+6512121212",
+        "logo_url": null,
+        "archived": false
+      },
+      "base_task": {
+        "id": 504128,
+        "guid": "TA3360504128",
+        "time_from": "2021-09-22T00:00:00.000+08:00",
+        "time_to": "2021-09-22T23:59:59.999+08:00",
+        "time_type": "all_day",
+        "actual_time": null,
+        "invoiced": false,
+        "state": "in_progress",
+        "role": "base",
+        "service_time": 60,
+        "address": {
+          "id": 540281,
+          "name": "Yummy Restaurant",
+          "zip": "556083",
+          "line_1": "23 Serangoon Central",
+          "line_2": "",
+          "country": "Singapore",
+          "city": "Singapore City",
+          "email": "domain@example.com.com",
+          "contact_person": "Mr. Person",
+          "contact_number": "+6598765432",
+          "longitude": 103.872224,
+          "latitude": 1.350772
+        },
+        "billing_account": null
+      },
+      "tags": []
+    },
+    "billing_account": null,
+    "measurements": [
+      {
+        "id": 344674,
+        "quantity": 3,
+        "quantity_unit": "carton",
+        "weight": 5,
+        "volume_length": null,
+        "volume_width": null,
+        "volume_height": null,
+        "volume": 0.5,
+        "description": "Handphones",
+        "custom_item_id": null,
+        "custom_item_check_method": null,
+        "custom_item_unload_check_method": null
+      }
+    ],
+    "custom_fields": [],
+    "tags": [
+      {
+        "name": "urgent"
+      },
+      {
+        "name": "fragile"
+      }
+    ],
+    "task_assignment": {
+      "estimated_start_time": null,
+      "driver": null,
+      "vehicle": null,
+      "vehicle_part": null,
+      "attendant": null
+    },
+    "vehicle_skills": [],
+    "vehicle_part_skills": [],
+    "driver_skills": []
+  }
+}

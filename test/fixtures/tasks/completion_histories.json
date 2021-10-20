@@ -1,0 +1,64 @@
+{
+  "task_completion_histories": [
+    {
+      "actual_cod": null,
+      "expected_cod": null,
+      "notes": null,
+      "state": "successful",
+      "recipient_name": "Jua",
+      "created_at": "2021-10-12T11:58:25.673+08:00",
+      "updated_at": "2021-10-12T11:58:25.673+08:00",
+      "is_partial_success": false,
+      "user": {
+        "id": 2221,
+        "model": "Driver",
+        "name": "David changed"
+      },
+      "deleted_photos_count": 0,
+      "custom_fields": [],
+      "photos": [],
+      "signature_photo": null,
+      "line_item_completions": [
+        {
+          "id": 21211,
+          "measurement_id": 345106,
+          "task_completion_history_id": 98209,
+          "actual_quantity": 1,
+          "reason": null,
+          "created_at": "2021-10-12T11:58:25.753+08:00",
+          "updated_at": "2021-10-12T11:58:25.753+08:00"
+        }
+      ]
+    },
+    {
+      "actual_cod": null,
+      "expected_cod": null,
+      "notes": null,
+      "state": "collected",
+      "recipient_name": "Hua",
+      "created_at": "2021-10-12T11:57:39.945+08:00",
+      "updated_at": "2021-10-12T11:57:40.386+08:00",
+      "is_partial_success": false,
+      "user": {
+        "id": 2221,
+        "model": "Driver",
+        "name": "David changed"
+      },
+      "deleted_photos_count": 0,
+      "custom_fields": [],
+      "photos": [],
+      "signature_photo": null,
+      "line_item_completions": [
+        {
+          "id": 1,
+          "measurement_id": 1,
+          "task_completion_history_id": 98208,
+          "actual_quantity": 1,
+          "reason": null,
+          "created_at": "2021-10-12T11:57:40.348+08:00",
+          "updated_at": "2021-10-12T11:57:40.348+08:00"
+        }
+      ]
+    }
+  ]
+}

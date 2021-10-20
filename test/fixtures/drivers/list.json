@@ -1,0 +1,65 @@
+{
+  "drivers": [
+    {
+      "id": 2221,
+      "guid": "DR3360002221",
+      "name": "David",
+      "dob": null,
+      "nric": null,
+      "contact_number": null,
+      "license": null,
+      "status": "available",
+      "archived": false,
+      "is_versadrive_user": true,
+      "username": "davidloadedtest",
+      "has_password": true,
+      "is_attendant": false,
+      "last_seen": {
+        "latitude": -7.3577955,
+        "longitude": 109.542409,
+        "time": "2021-09-21T19:14:31.838+08:00"
+      },
+      "default_vehicle": {
+        "id": 2150,
+        "guid": "VH3360002150",
+        "plate_number": "BA 1209 11",
+        "status": "available",
+        "cargo_load": null,
+        "model": null,
+        "category": null,
+        "ownership_date": null,
+        "registration_date": null,
+        "insurance_expiry": null,
+        "tax_expiry": null,
+        "speed": 100,
+        "volume": null,
+        "custom_fields": [],
+        "skills": [],
+        "vehicle_parts": []
+      },
+      "address": {
+        "id": 532588,
+        "name": null,
+        "zip": null,
+        "line_1": null,
+        "line_2": null,
+        "country": "Singapore",
+        "city": null,
+        "email": null,
+        "contact_person": null,
+        "contact_number": null,
+        "longitude": null,
+        "latitude": null
+      },
+      "attendant": null,
+      "driver": null,
+      "custom_fields": [],
+      "skills": []
+    }
+  ],
+  "meta": {
+    "page": 1,
+    "per_page": 20,
+    "total": 1
+  }
+}

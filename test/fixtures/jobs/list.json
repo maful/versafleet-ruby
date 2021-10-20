@@ -1,0 +1,101 @@
+{
+  "jobs": [
+    {
+      "id": 12,
+      "guid": "JB3360081449",
+      "job_type": "delivery",
+      "remarks": null,
+      "state": "in_progress",
+      "archived": false,
+      "customer": {
+        "id": 15258,
+        "guid": "CT3360015258",
+        "name": "Jason",
+        "email": "bal@example.com",
+        "contact_person": "Jason",
+        "contact_number": "+6512121212",
+        "logo_url": null,
+        "archived": false
+      },
+      "base_task": {
+        "id": 504022,
+        "guid": "TA3360504022",
+        "time_from": "2021-09-21T19:00:00.000+08:00",
+        "time_to": "2021-09-22T15:59:59.000+08:00",
+        "time_type": "custom",
+        "actual_time": null,
+        "invoiced": false,
+        "state": "in_progress",
+        "role": "base",
+        "service_time": 0,
+        "address": {
+          "id": 540174,
+          "name": "Singapore Office",
+          "zip": null,
+          "line_1": "East",
+          "line_2": "#06-02/#04-01/#4M",
+          "country": "Singapore",
+          "city": "Singapore 608830",
+          "email": null,
+          "contact_person": "shipping receiving",
+          "contact_number": null,
+          "longitude": 103.7511828,
+          "latitude": 1.3395191
+        },
+        "billing_account": null
+      },
+      "tags": []
+    },
+    {
+      "id": 13,
+      "guid": "JB3360081450",
+      "job_type": "pickup",
+      "remarks": null,
+      "state": "in_progress",
+      "archived": false,
+      "customer": {
+        "id": 15258,
+        "guid": "CT3360015258",
+        "name": "Jason",
+        "email": "bal@example.com",
+        "contact_person": "Jason",
+        "contact_number": "+6512121212",
+        "logo_url": null,
+        "archived": false
+      },
+      "base_task": {
+        "id": 504024,
+        "guid": "TA3360504024",
+        "time_from": "2021-09-21T16:00:00.000+08:00",
+        "time_to": "2021-09-21T23:59:59.000+08:00",
+        "time_type": "custom",
+        "actual_time": null,
+        "invoiced": false,
+        "state": "in_progress",
+        "role": "base",
+        "service_time": 0,
+        "address": {
+          "id": 540176,
+          "name": "Wonderland",
+          "zip": null,
+          "line_1": "P.O.Box 3",
+          "line_2": "Singapore Changi Airport",
+          "country": "Singapore",
+          "city": "Singapore 918141",
+          "email": null,
+          "contact_person": null,
+          "contact_number": null,
+          "longitude": null,
+          "latitude": null
+        },
+        "billing_account": null
+      },
+      "tags": []
+    }
+  ],
+  "meta": {
+    "page": 1,
+    "per_page": 2,
+    "total": 2
+  }
+}

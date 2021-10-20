@@ -1,0 +1,48 @@
+{
+  "job": {
+    "id": 123,
+    "guid": "JB3360081494",
+    "job_type": "delivery",
+    "remarks": "Update remarks",
+    "state": "in_progress",
+    "archived": false,
+    "customer": {
+      "id": 15258,
+      "guid": "CT3360015258",
+      "name": "Jason",
+      "email": "bal@example.com",
+      "contact_person": "Jason",
+      "contact_number": "+6512121212",
+      "logo_url": null,
+      "archived": false
+    },
+    "base_task": {
+      "id": 504128,
+      "guid": "TA3360504128",
+      "time_from": "2021-09-22T00:00:00.000+08:00",
+      "time_to": "2021-09-22T23:59:59.999+08:00",
+      "time_type": "all_day",
+      "actual_time": null,
+      "invoiced": false,
+      "state": "in_progress",
+      "role": "base",
+      "service_time": 60,
+      "address": {
+        "id": 540281,
+        "name": "Yummy Restaurant",
+        "zip": "556083",
+        "line_1": "23 Serangoon Central",
+        "line_2": "",
+        "country": "Singapore",
+        "city": "Singapore City",
+        "email": "domain@example.com.com",
+        "contact_person": "Mr. Person",
+        "contact_number": "+6598765432",
+        "longitude": 103.872224,
+        "latitude": 1.350772
+      },
+      "billing_account": null
+    },
+    "tags": []
+  }
+}

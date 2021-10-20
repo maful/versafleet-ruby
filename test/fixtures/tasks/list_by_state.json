@@ -1,0 +1,112 @@
+{
+  "tasks": [
+    {
+      "id": 504129,
+      "account_id": 336,
+      "invoice_number": "IN12345678",
+      "state": "unassigned",
+      "job_type": "delivery",
+      "state_updated_at": "2021-09-28T07:04:05.528+08:00",
+      "custom_fields": [],
+      "tags": [
+        {
+          "name": "urgent"
+        },
+        {
+          "name": "fragile"
+        }
+      ],
+      "task_assignment": {
+        "driver": null,
+        "vehicle": null
+      },
+      "task_address": {
+        "id": 540282,
+        "name": "Someone's Home",
+        "zip": "730877",
+        "line_1": "877 WOODLANDS AVENUE 9",
+        "line_2": "09-01",
+        "country": "Singapore",
+        "city": "Singapore City",
+        "email": "her.email@domain.com",
+        "contact_person": "Ms. Person",
+        "contact_number": "+6523456789",
+        "longitude": 103.791312,
+        "latitude": 1.4451443
+      },
+      "job_address": {
+        "id": 540281,
+        "name": "Yummy Restaurant",
+        "zip": "556083",
+        "line_1": "23 Serangoon Central",
+        "line_2": "",
+        "country": "Singapore",
+        "city": "Singapore City",
+        "email": "domain@example.com.com",
+        "contact_person": "Mr. Person",
+        "contact_number": "+6598765432",
+        "longitude": 103.872224,
+        "latitude": 1.350772
+      }
+    },
+    {
+      "id": 504127,
+      "account_id": 336,
+      "invoice_number": null,
+      "state": "unassigned",
+      "job_type": "pickup",
+      "state_updated_at": "2021-09-27T19:02:04.117+08:00",
+      "custom_fields": [
+        {
+          "id": 2050069,
+          "value": "Original",
+          "subvalue": null,
+          "custom_field_description_id": 1369,
+          "custom_field_description_name": "Transaction Type"
+        }
+      ],
+      "tags": [
+        {
+          "name": "4711513223"
+        }
+      ],
+      "task_assignment": {
+        "driver": null,
+        "vehicle": null
+      },
+      "task_address": {
+        "id": 540280,
+        "name": "Expeditors Singapore Pte Ltd",
+        "zip": null,
+        "line_1": "61 Alps Avenue",
+        "line_2": null,
+        "country": "Singapore",
+        "city": "Singapore 498798",
+        "email": null,
+        "contact_person": "Mr. Trevor Charon",
+        "contact_number": "65-6510 7900",
+        "longitude": 104.0020559,
+        "latitude": 1.3786926
+      },
+      "job_address": {
+        "id": 540279,
+        "name": "SATS Ltd",
+        "zip": null,
+        "line_1": "P.O.Box 3",
+        "line_2": "Singapore Changi Airport",
+        "country": "Singapore",
+        "city": "Singapore 918141",
+        "email": null,
+        "contact_person": "Finance Dept",
+        "contact_number": "65-65418121",
+        "longitude": null,
+        "latitude": null
+      }
+    }
+  ],
+  "meta": {
+    "page": 1,
+    "per_page": 2,
+    "total": 2
+  }
+}

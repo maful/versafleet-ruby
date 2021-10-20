@@ -76,8 +76,7 @@ module Versafleet
     #
     # @param job_id [Integer] Job ID
     def cancel(job_id:)
-      # TODO: Remove Job object return
-      Job.new put_request("v2/jobs/#{job_id}/cancel", body: {}).body
+      put_request("v2/jobs/#{job_id}/cancel", body: {}).body
     end
 
     # List Tasks of Job

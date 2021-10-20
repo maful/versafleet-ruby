@@ -1,0 +1,67 @@
+{
+  "job": {
+    "job_type": "delivery",
+    "remarks": "Some Notes",
+    "customer_id": 15258,
+    "base_task_attributes": {
+      "time_from": "2021-09-22T00:00:00.000+08:00",
+      "time_to": "2021-09-22T23:59:00.000+08:00",
+      "time_type": "all_day",
+      "time_window_id": null,
+      "service_time": null,
+      "address_attributes": {
+        "name": "Yummy Restaurant",
+        "zip": 556083,
+        "line_1": "23 Serangoon Central",
+        "line_2": "",
+        "country": "Singapore",
+        "city": "Singapore City",
+        "email": "domain@example.com.com",
+        "contact_person": "Mr. Person",
+        "contact_number": "+6598765432",
+        "longitude": 103.872224,
+        "latitude": 1.350772
+      }
+    },
+    "tasks_attributes": [
+      {
+        "price": 20,
+        "invoice_number": "IN12345678",
+        "tracking_id": "",
+        "time_from": "2021-09-22T00:00:00.000+08:00",
+        "time_to": "2021-09-22T23:59:00.000+08:00",
+        "time_type": "all_day",
+        "time_window_id": null,
+        "expected_cod": 200,
+        "remarks": "Leave with secretary",
+        "service_time": 15,
+        "address_attributes": {
+          "name": "Someone's Home",
+          "zip": 730877,
+          "line_1": "877 WOODLANDS AVENUE 9",
+          "line_2": "09-01",
+          "country": "Singapore",
+          "city": "Singapore City",
+          "email": "her.email@domain.com",
+          "contact_person": "Ms. Person",
+          "contact_number": "+6523456789",
+          "longitude": 103.791312,
+          "latitude": 1.4451443
+        },
+        "measurements_attributes": [
+          {
+            "quantity": 3,
+            "quantity_unit": "carton",
+            "weight": 5,
+            "volume": 0.5,
+            "description": "Handphones"
+          }
+        ],
+        "tag_list": [
+          "fragile",
+          "urgent"
+        ]
+      }
+    ]
+  }
+}
