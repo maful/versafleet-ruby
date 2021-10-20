@@ -74,7 +74,7 @@ class TasksResourceTest < Minitest::Test
   end
 
   def test_assign_multiple
-    body = {ids: [12,21], driver_id: 11, vehicle_id: 2, remarks: "Notes"}
+    body = {ids: [12, 21], driver_id: 11, vehicle_id: 2, remarks: "Notes"}
     stub = stub_request("tasks/assign", method: :put, body: {task: body}, response: stub_response(fixture: "tasks/common"))
     client = Versafleet::Client.new(client_id: "fake", client_secret: "fake", adapter: :test, stubs: stub)
     assert client.tasks.assign_multiple(task: body)
@@ -91,7 +91,7 @@ class TasksResourceTest < Minitest::Test
   end
 
   def test_unassign_multiple
-    body = {ids: [123,213]}
+    body = {ids: [123, 213]}
     stub = stub_request("tasks/unassign", method: :put, body: {task: body}, response: stub_response(fixture: "tasks/common"))
     client = Versafleet::Client.new(client_id: "fake", client_secret: "fake", adapter: :test, stubs: stub)
     assert client.tasks.unassign_multiple(task: body)
