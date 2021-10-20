@@ -1,0 +1,48 @@
+{
+  "driver": {
+    "id": 131,
+    "guid": "DR1120000131",
+    "name": "Yolo Driver",
+    "dob": "1990-09-09",
+    "nric": "S9200010J",
+    "contact_number": "12345678",
+    "license": "S12312335E",
+    "status": "available",
+    "archived": false,
+    "is_versadrive_user": false,
+    "username": "Driver122",
+    "has_password": true,
+    "is_attendant": false,
+    "default_vehicle": {
+      "id": 2,
+      "guid": "VH1120000002",
+      "plate_number": "SKJ1357Z",
+      "status": "available",
+      "cargo_load": 3000,
+      "model": "Honda",
+      "category": "Lorry",
+      "ownership_date": "2015-02-20",
+      "registration_date": "2015-02-20",
+      "insurance_expiry": "2020-02-02",
+      "tax_expiry": "2020-02-02"
+    },
+    "address": {
+      "id": 24,
+      "name": "Test Driver 1 Address",
+      "zip": "123456",
+      "line_1": "Driver Rd",
+      "line_2": "#01-232",
+      "country": "Singapore",
+      "city": "Singapore City",
+      "email": "driver@email.com",
+      "contact_person": "Bob",
+      "contact_number": "91234567",
+      "longitude": 31.23,
+      "latitude": 64.12
+    },
+    "attendant": null,
+    "driver": null,
+    "custom_fields": [],
+    "skills": []
+  }
+}

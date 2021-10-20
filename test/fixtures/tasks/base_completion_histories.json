@@ -1,0 +1,20 @@
+{
+  "base_task_completion_histories": [
+    {
+      "id": 3527,
+      "created_at": "2021-10-12T11:58:25.513+08:00",
+      "updated_at": "2021-10-12T11:58:26.924+08:00",
+      "epod_url": null,
+      "task_id": 504592,
+      "base_task_completion_detail": {
+        "recipient_name": "Double",
+        "notes": null,
+        "actual_cod": 0,
+        "custom_field_group_id": 357,
+        "custom_fields": [],
+        "photos": [],
+        "signature_photo": null
+      }
+    }
+  ]
+}

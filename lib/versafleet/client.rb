@@ -9,6 +9,9 @@ module Versafleet
     # @return [String] Gets the VersaFleet Secret Key
     attr_reader :client_secret
 
+    # @return [Symbol] Gets the Symbol key identifying a default Adapter to use
+    attr_reader :adapter
+
     # Initialize a new VersaFlet client
     #
     # == Example:
@@ -19,9 +22,13 @@ module Versafleet
     #
     # @param client_id [String] VersaFleet API Key
     # @param client_secret [String] VersaFleet Secret Key
-    def initialize(client_id:, client_secret:)
+    def initialize(client_id:, client_secret:, adapter: Faraday.default_adapter, stubs: nil)
       @client_id = client_id
       @client_secret = client_secret
+      @adapter = adapter
+
+      # Test stubs for requests
+      @stubs = stubs
     end
 
     # Jobs Resource instance
@@ -53,7 +60,7 @@ module Versafleet
         conn.url_prefix = BASE_URL
         conn.request :json
         conn.response :json, content_type: "application/json"
-        conn.adapter Faraday.default_adapter
+        conn.adapter adapter, @stubs
       end
     end
 
