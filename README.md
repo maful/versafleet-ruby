@@ -115,6 +115,17 @@ client.vehicles.create(vehicle: {plate_number: "SK1212", model: "Honda", speed: 
 client.vehicles.update(vehicle_id: vehicle_id, vehicle: {model: "Mercedes", speed: 70})
 ```
 
+### Runsheets
+
+```ruby
+# list runsheets by driver
+client.runsheets.drivers_tasks(driver_id: driver_id)
+# filter runsheets by date
+client.runsheets.drivers_tasks(driver_id: driver_id, date: "2021-10-14")
+# filter by date and state of the tasks
+client.runsheets.drivers_tasks(driver_id: driver_id, date: "2021-10-14", state: "successful")
+```
+
 ## TO DO
 
 - [x] Add API Documentation ([#2](https://github.com/maful/versafleet-ruby/pull/2))
@@ -123,7 +134,7 @@ client.vehicles.update(vehicle_id: vehicle_id, vehicle: {model: "Mercedes", spee
 	- [x] Add Jobs V2 API
 	- [x] Add Tasks API
 	- [ ] Non-Authenticated Tracking API
-	- [ ] Add Runsheets API
+	- [x] Add Runsheets API ([#5](https://github.com/maful/versafleet-ruby/pull/5))
 	- [x] Add Drivers API ([#1](https://github.com/maful/versafleet-ruby/pull/1))
 	- [x] Add Vehicles API ([#4](https://github.com/maful/versafleet-ruby/pull/4))
 	- [ ] Add Customers API
