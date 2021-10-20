@@ -59,6 +59,13 @@ module Versafleet
       VehiclesResource.new(self)
     end
 
+    # Runsheets Resource instance
+    #
+    # @return [RunsheetsResource]
+    def runsheets
+      RunsheetsResource.new(self)
+    end
+
     # Initializes a new Faraday connection
     #
     # @return [Faraday::Connection]
