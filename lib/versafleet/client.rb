@@ -52,6 +52,13 @@ module Versafleet
       DriversResource.new(self)
     end
 
+    # Vehicles Resource instance
+    #
+    # @return [VehiclesResource]
+    def vehicles
+      VehiclesResource.new(self)
+    end
+
     # Initializes a new Faraday connection
     #
     # @return [Faraday::Connection]

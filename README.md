@@ -102,11 +102,32 @@ client.drivers.create(driver: {name: "Yolo", dob: "1990-09-09"})
 client.drivers.update(driver_id: driver_id, driver: {name: "Yolo update"})
 ```
 
+### Vehicles
+
+```ruby
+# list vehicles
+client.vehicles.list
+# get a vehicle details
+client.vehicles.retrieve(vehicle_id: vehicle_id)
+# create vehicle
+client.vehicles.create(vehicle: {plate_number: "SK1212", model: "Honda", speed: 50})
+# update vehicle
+client.vehicles.update(vehicle_id: vehicle_id, vehicle: {model: "Mercedes", speed: 70})
+```
+
 ## TO DO
 
 - [x] Add API Documentation ([#2](https://github.com/maful/versafleet-ruby/pull/2))
 - [ ] Add Docker support
 - [ ] Support to All VersaFleet API endpoints.
+	- [x] Add Jobs V2 API
+	- [x] Add Tasks API
+	- [ ] Non-Authenticated Tracking API
+	- [ ] Add Runsheets API
+	- [x] Add Drivers API ([#1](https://github.com/maful/versafleet-ruby/pull/1))
+	- [x] Add Vehicles API ([#4](https://github.com/maful/versafleet-ruby/pull/4))
+	- [ ] Add Customers API
+	- [ ] Add Account API
 
 ## 🙏 Contributing
 

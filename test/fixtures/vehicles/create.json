@@ -1,0 +1,20 @@
+{
+  "vehicle": {
+    "id": 3,
+    "guid": "VH3360002152",
+    "plate_number": "KJ111",
+    "status": "available",
+    "cargo_load": null,
+    "model": "Honda",
+    "category": null,
+    "ownership_date": null,
+    "registration_date": null,
+    "insurance_expiry": null,
+    "tax_expiry": null,
+    "speed": 100,
+    "volume": null,
+    "custom_fields": [],
+    "skills": [],
+    "vehicle_parts": []
+  }
+}
