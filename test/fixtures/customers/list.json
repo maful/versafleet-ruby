@@ -1,0 +1,29 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "guid": "CT336001",
+      "name": "Bourne",
+      "email": "well@example.com",
+      "contact_person": null,
+      "contact_number": null,
+      "logo_url": null,
+      "archived": false
+    },
+    {
+      "id": 2,
+      "guid": "CT336002",
+      "name": "Jason",
+      "email": "bal@example.com",
+      "contact_person": "Jason",
+      "contact_number": "+6512121212",
+      "logo_url": null,
+      "archived": false
+    }
+  ],
+  "meta": {
+    "page": 1,
+    "per_page": 20,
+    "total": 2
+  }
+}

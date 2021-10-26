@@ -1,0 +1,13 @@
+{
+  "customer": {
+    "id": 1,
+    "guid": "CT336001",
+    "name": "Bourne",
+    "email": "well@example.com",
+    "contact_person": null,
+    "contact_number": null,
+    "logo_url": null,
+    "archived": false,
+    "billing_accounts": []
+  }
+}
