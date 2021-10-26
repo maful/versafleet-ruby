@@ -15,6 +15,7 @@ module Versafleet
   autoload :DriversResource, "versafleet/resources/drivers"
   autoload :VehiclesResource, "versafleet/resources/vehicles"
   autoload :RunsheetsResource, "versafleet/resources/runsheets"
+  autoload :CustomersResource, "versafleet/resources/customers"
 
   # Classes used to return a nicer object wrapping the response data
   autoload :Job, "versafleet/objects/job"
@@ -22,4 +23,5 @@ module Versafleet
   autoload :Driver, "versafleet/objects/driver"
   autoload :Vehicle, "versafleet/objects/vehicle"
   autoload :Runsheet, "versafleet/objects/runsheet"
+  autoload :Customer, "versafleet/objects/customer"
 end

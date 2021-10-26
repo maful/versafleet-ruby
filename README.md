@@ -126,6 +126,19 @@ client.runsheets.drivers_tasks(driver_id: driver_id, date: "2021-10-14")
 client.runsheets.drivers_tasks(driver_id: driver_id, date: "2021-10-14", state: "successful")
 ```
 
+### Customers
+
+```ruby
+# list customers
+client.customers.list
+# get a customer details
+client.customers.retrieve(customer_id: customer_id)
+# create customer
+client.customers.create(customer: {name: "John Doe", email: "well@example.com"})
+# update customer
+client.customers.update(customer_id: customer_id, customer: {name: "Bourne"})
+```
+
 ## TO DO
 
 - [x] Add API Documentation ([#2](https://github.com/maful/versafleet-ruby/pull/2))
@@ -137,7 +150,7 @@ client.runsheets.drivers_tasks(driver_id: driver_id, date: "2021-10-14", state: 
 	- [x] Add Runsheets API ([#5](https://github.com/maful/versafleet-ruby/pull/5))
 	- [x] Add Drivers API ([#1](https://github.com/maful/versafleet-ruby/pull/1))
 	- [x] Add Vehicles API ([#4](https://github.com/maful/versafleet-ruby/pull/4))
-	- [ ] Add Customers API
+	- [x] Add Customers API ([#6](https://github.com/maful/versafleet-ruby/pull/6))
 	- [ ] Add Account API
 
 ## 🙏 Contributing

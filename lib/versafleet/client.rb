@@ -66,6 +66,13 @@ module Versafleet
       RunsheetsResource.new(self)
     end
 
+    # Customers Resource instance
+    #
+    # @return [CustomersResource]
+    def customers
+      CustomersResource.new(self)
+    end
+
     # Initializes a new Faraday connection
     #
     # @return [Faraday::Connection]
