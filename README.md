@@ -139,6 +139,19 @@ client.customers.create(customer: {name: "John Doe", email: "well@example.com"})
 client.customers.update(customer_id: customer_id, customer: {name: "Bourne"})
 ```
 
+### Account
+
+```ruby
+# get account details
+client.account.retrieve(account_id: account_id)
+# create an account
+client.account.create(customer_id: customer_id, account: {name: "Johhny", email: "john@example.com"})
+# update account
+client.account.update(account_id: account_id, account: {name: "Bobby"})
+# delete an account
+client.account.delete(account_id: account_id)
+```
+
 ## TO DO
 
 - [x] Add API Documentation ([#2](https://github.com/maful/versafleet-ruby/pull/2))
@@ -151,7 +164,7 @@ client.customers.update(customer_id: customer_id, customer: {name: "Bourne"})
 	- [x] Add Drivers API ([#1](https://github.com/maful/versafleet-ruby/pull/1))
 	- [x] Add Vehicles API ([#4](https://github.com/maful/versafleet-ruby/pull/4))
 	- [x] Add Customers API ([#6](https://github.com/maful/versafleet-ruby/pull/6))
-	- [ ] Add Account API
+	- [x] Add Account API ([#8](https://github.com/maful/versafleet-ruby/pull/8))
 
 ## 🙏 Contributing
 

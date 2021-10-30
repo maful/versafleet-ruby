@@ -73,6 +73,13 @@ module Versafleet
       CustomersResource.new(self)
     end
 
+    # Account Resource instance
+    #
+    # @return [AccountResource]
+    def account
+      AccountResource.new(self)
+    end
+
     # Initializes a new Faraday connection
     #
     # @return [Faraday::Connection]

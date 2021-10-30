@@ -1,0 +1,11 @@
+{
+  "billing_account": {
+    "id": 1,
+    "guid": "AC336001",
+    "name": "Danny",
+    "email": "danny@example.com",
+    "contact_person": null,
+    "contact_number": null,
+    "addresses": []
+  }
+}
