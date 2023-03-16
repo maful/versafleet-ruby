@@ -4,6 +4,8 @@ You'll need a VersaFleet account to use the API, if you don't have one visit the
 
 [![Build status](https://github.com/maful/versafleet-ruby/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/maful/versafleet-ruby/actions/workflows/test.yml) [![Gem Version](https://badge.fury.io/rb/versafleet.svg)](https://badge.fury.io/rb/versafleet)
 
+> [Libur.run](https://github.com/maful/libur.run) - Empower Your HR with Next-Gen Open Source Self-Serve Platform
+
 ## Installation
 
 Add `versafleet` to your application's Gemfile:
